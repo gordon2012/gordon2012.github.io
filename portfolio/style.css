@@ -1,0 +1,99 @@
+/*RESET*/
+html, body, section, slide, inner, container-fluid, #fullpage
+{
+  height: 100%;
+}
+
+ul
+{
+  margin: 0;
+  display: block;
+}
+
+li
+{
+  display: inline;
+}
+
+
+
+#menu
+{
+  position: fixed;
+  height: 50px;
+  display: block;
+  width: 100%;
+  background: #333;
+  z-index: 9;
+
+  color: white;
+  line-height: 50px;
+}
+#menu a
+{
+  color: white;
+}
+
+.floating
+{
+  position: fixed;
+  color: red;
+  margin: 15% 25% 25% 25%;
+  background-color: green;
+  width: 50%;
+
+}
+
+
+.inner
+{
+  margin: 100px 50px auto 50px;
+  border: 1px solid red;
+  height: 100%;
+  color: white;
+}
+
+.port-out
+{
+  background-color: blue;
+
+  height: 50%;
+  width: 80%;
+
+  margin: auto;
+
+
+}
+.port-in
+{
+
+}
+
+
+.section
+{
+  background-size: cover;
+  background-position: center center;
+}
+
+.home
+{
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/303256/sunrise-1014713_1920.jpg);
+}
+.about
+{
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/303256/tuscany-945506_1920.jpg);
+}
+.portfolio
+{
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/303256/arches-945495_1920.jpg);
+}
+.contact
+{
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/303256/snow-21979_1920.jpg);
+}
+
+li.active
+{
+  text-transform: uppercase;
+}
