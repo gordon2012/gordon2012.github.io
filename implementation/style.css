@@ -1,0 +1,113 @@
+/* Reset */
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Basic styling */
+body
+{
+  font-family: myriad-pro,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16pt;
+}
+h1
+{
+  font-size: 2.5em;
+  text-align: center;
+}
+h2
+{
+  font-size: 1.5em;
+  border: 16px solid #08c;
+  border-radius: 16px;
+  padding: 8px;
+  margin-top: 32px;
+}
+ul
+{
+  padding-left: 64px;
+  line-height: 175%;
+}
+p
+{
+  line-height: 150%;
+  padding: 16px 32px;
+}
+
+
+/* Content */
+#main > h1
+{
+  line-height: 300%
+}
+
+
+/* Header */
+#header
+{
+  background-color: #08c;
+  color: white;
+  border-bottom: solid 4px white;
+  min-height: 140px;
+}
+#header > h1
+{
+  line-height: 140px;
+}
+
+
+/* Navbar */
+#navbar
+{
+  background-color: #08c;
+}
+#navbar a
+{
+  color: white;
+  text-decoration: none;
+}
+table
+{
+  table-layout: fixed;
+  width: 100%;
+  text-align: center;
+}
+td
+{
+  white-space: nowrap;
+}
+table.row1 > td
+{
+  width: 25%;
+}
+table.row2 > td
+{
+  width: 33%;
+}
+tr :hover
+{
+  background-color: blue;
+}
+
+/* Fixed navbar */
+#page
+{
+  min-height: 100%;
+  height: 100%;
+  position: relative;
+  width: 80%; margin: auto;
+}
+#navbar
+{
+  position: fixed;
+  z-index: 10;
+  width: 80%;
+  height: 62px;
+}
+#main
+{
+  padding-bottom: 0px;
+  padding-top: 66px;
+}
